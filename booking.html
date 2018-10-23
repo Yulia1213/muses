@@ -7,16 +7,15 @@
     <title>Musesbooking</title>
 </head>
 <body>
-     <header>
+    <header>
         <img src="images/phoneicon.png" alt="phoneicon"> <h1>0930033003</h1>
-        <a href="index.html">ПОВЕРНУТИСЬ<br>НА ГОЛОВНУ</a>
+        <a href="index.html">ПОВЕРНУТИСЬ НА ГОЛОВНУ</a>
         <img src="images/museslogo.png" alt="museslogo">
-        
     </header>
     <main>
         <img src="images/bookingpagebackground.jpg" alt="bookingpagebackground">
          <form method="POST" action="https://formspree.io/yuliaweluka@gmail.com">
-                <p>День: <select name="daylist">
+            <div id="dayselect"><p>День: <select name="daylist">
                 <option>Понеділок</option>
                 <option>Вівторок</option>
                 <option>Середа</option>
@@ -25,8 +24,8 @@
                 <option>Субота</option>
                 <option>Неділя</option>
                 </select></p>
-                
-                <p>Час: <select name="daylist">
+            </div>    
+            <div id="timeselect"><p>Час: <select name="daylist">
                 <option>10:00</option>
                 <option>10:30</option>
                 <option>11:00</option>
@@ -56,42 +55,40 @@
                 <option>23:00</option>
                 <option>23:30</option>
                 </select></p>
-                
+            </div>    
+            <div id="placeselect">
                 <label>
                     <input type="radio" name="place" value="тераса">ТЕРАСА
                 </label>
                 <label>
                     <input type="radio" name="place" value="зал">ЗАЛ
                 </label>
-                <br>
+            </div>
+            <div class="nameinput">
                 <label for="name">Ваше ім`я:</label>
                 <input type="text" name="name" placeholder=" ім`я"
                  id="name" required>
-                <br> 
+            </div>
+            <div class="phoneinput">
                 <label>Номер телефону:
                     <input type="text" name="phone"
                      placeholder=" телефон" required>
                 </label> 
-                
+            </div>    
                 
                 <hr>
                 <input type="submit" value="Забронювати">
                 <input type="reset" value="Очистити">
             </form>
     </main>
-    <footer>
+   <footer>
         <div id="footermenu">
             <ul class="firstcolumn">
-                <li><a href=".html"></a>Головна</li>
-                <li><a href=".html"></a>Контакти</li>
-                <li><a href=".html"></a>Події</li>
-                <li><a href=".html"></a>Карта</li>
-            </ul>
-            <ul class="secondcolumn">
-                <li><a href=".html"></a>Забронювати столик</li>
-                <li><a href=".html"></a>Меню</li>
-                <li><a href=".html"></a>Напої</li>
-                <li><a href=".html"></a>Кальян</li>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="booking.html">Забронювати столик</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="drinks.html">Напої</a></li>
+                <li><a href="hookah.html">Кальян</a></li>
             </ul>
         </div>
         <img src="images/museslogo.png" alt="museslogo">
