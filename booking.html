@@ -1,103 +1,109 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Musesbooking</title>
-   
-</head>
-<body>
-    <header>
-        <img src="images/phoneicon.png" alt="phoneicon"> <h1>0930033003</h1>
-        <a href="index.html">ПОВЕРНУТИСЬ НА ГОЛОВНУ</a>
-        <img src="images/museslogo.png" alt="museslogo">
-    </header>
-    <main>
-        <img src="images/bookingpagebackground.jpg" alt="bookingpagebackground">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Musesbooking</title>
+   </head>
+   <body>
+      <header>
+         <h1><img src="images/mainphoneicon.png" alt="phoneicon">0 9 3 0 0 3 3 0 0 3</h1>
+         <a href="index.html">ПОВЕРНУТИСЬ НА ГОЛОВНУ</a>
+         <img src="images/museslogo.png" alt="museslogo">
+      </header>
+      <main>
+         <img src="images/bookingpagebackground.jpg" alt="bookingpagebackground">
          <form method="POST" action="https://formspree.io/yuliaweluka@gmail.com">
-            <div id="dayselect"><p>День: <select name="daylist">
-                <option>Понеділок</option>
-                <option>Вівторок</option>
-                <option>Середа</option>
-                <option>Четвер</option>
-                <option>П'ятниця</option>
-                <option>Субота</option>
-                <option>Неділя</option>
-                </select></p>
-            </div>    
-            <div id="timeselect"><p>Час: <select name="daylist">
-                <option>10:00</option>
-                <option>10:30</option>
-                <option>11:00</option>
-                <option>11:30</option>
-                <option>12:00</option>
-                <option>12:30</option>
-                <option>13:00</option>
-                <option>13:30</option>
-                <option>14:00</option>
-                <option>14:30</option>
-                <option>15:00</option>
-                <option>15:30</option>
-                <option>16:00</option>
-                <option>16:30</option>
-                <option>17:00</option>
-                <option>17:30</option>
-                <option>18:00</option>
-                <option>18:30</option>
-                <option>19:00</option>
-                <option>19:30</option>
-                <option>20:00</option>
-                <option>20:30</option>
-                <option>21:00</option>
-                <option>21:30</option>
-                <option>22:00</option>
-                <option>22:30</option>
-                <option>23:00</option>
-                <option>23:30</option>
-                </select></p>
-            </div>    
+            <div id="dayselect">
+               <p>
+                  День: 
+                  <select name="daylist">
+                     <option>Понеділок</option>
+                     <option>Вівторок</option>
+                     <option>Середа</option>
+                     <option>Четвер</option>
+                     <option>П'ятниця</option>
+                     <option>Субота</option>
+                     <option>Неділя</option>
+                  </select>
+               </p>
+            </div>
+            <div id="timeselect">
+               <p>
+                  Час: 
+                  <select name="daylist">
+                     <option>10:00</option>
+                     <option>10:30</option>
+                     <option>11:00</option>
+                     <option>11:30</option>
+                     <option>12:00</option>
+                     <option>12:30</option>
+                     <option>13:00</option>
+                     <option>13:30</option>
+                     <option>14:00</option>
+                     <option>14:30</option>
+                     <option>15:00</option>
+                     <option>15:30</option>
+                     <option>16:00</option>
+                     <option>16:30</option>
+                     <option>17:00</option>
+                     <option>17:30</option>
+                     <option>18:00</option>
+                     <option>18:30</option>
+                     <option>19:00</option>
+                     <option>19:30</option>
+                     <option>20:00</option>
+                     <option>20:30</option>
+                     <option>21:00</option>
+                     <option>21:30</option>
+                     <option>22:00</option>
+                     <option>22:30</option>
+                     <option>23:00</option>
+                     <option>23:30</option>
+                  </select>
+               </p>
+            </div>
             <div id="placeselect">
-                <label>
-                    <input type="radio" name="place" value="тераса">ТЕРАСА
-                </label>
-                <label>
-                    <input type="radio" name="place" value="зал">ЗАЛ
-                </label>
+               <label>
+               <input type="radio" name="place" value="тераса">ТЕРАСА
+               </label>
+               <label>
+               <input type="radio" name="place" value="зал">ЗАЛ
+               </label>
             </div>
             <div class="nameinput">
-                <label for="name">Ваше ім`я:</label>
-                <input type="text" name="name" placeholder=" ім`я"
-                 id="name" required>
+               <label for="name">Ваше ім`я:</label>
+               <input type="text" name="name" placeholder=" ім`я"
+                  id="name" required>
             </div>
             <div class="phoneinput">
-                <label>Номер телефону:
-                    <input type="text" name="phone"
-                     placeholder=" телефон" required>
-                </label> 
-            </div>    
-                
-                <hr>
-                <input type="submit" value="Забронювати">
-                <input type="reset" value="Очистити">
-            </form>
-    </main>
-    <footer>
-        <div id="footermenu">
+               <label>Номер телефону:
+               <input type="text" name="phone"
+                  placeholder=" телефон" required>
+               </label> 
+            </div>
+            <hr>
+            <input type="submit" value="Забронювати">
+            <input type="reset" value="Очистити">
+         </form>
+      </main>
+      <footer>
+         <div id="footermenu">
             <ul class="firstcolumn">
-                <li><a href="index.html">Головна</a></li>
-                <li><a href="booking.html">Забронювати столик</a></li>
-                <li><a href="menu.html">Меню</a></li>
-                <li><a href="drinks.html">Напої</a></li>
-                <li><a href="hookah.html">Кальян</a></li>
+               <li><a href="index.html">Головна</a></li>
+               <li><a href="booking.html">Забронювати столик</a></li>
+               <li><a href="menu.html">Меню</a></li>
+               <li><a href="drinks.html">Напої</a></li>
+               <li><a href="hookah.html">Кальян</a></li>
             </ul>
-        </div>
-        <img src="images/museslogo.png" alt="museslogo">
-        <div id="socialmedia">
+         </div>
+         <img src="images/museslogo.png" alt="museslogo">
+         <div id="socialmedia">
             <a href="https://www.facebook.com/"><img src="images/facebooklogo.png" alt="facebooklogo"></a>
             <a href="https://www.instagram.com"><img src="images/instagramlogo.png" alt="instagrqamlogo"></a>
             <a href="https://www.tripadvisor.com/"><img src="images/tripadvisorlogo.png" alt="tripadvisorlogo"></a>
-        </div>
-    </footer>
-</body>
+         </div>
+      </footer>
+   </body>
 </html>
