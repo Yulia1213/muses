@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Montserrat:500,600');
+
+body {
+    min-width: 300px;
+    max-width: 980px;
+    margin: auto;
+}
+header h1 {
+    text-align: center;
+    font-family: 'Montserrat',  sans-serif;
+    font-size: 2rem;
+    margin: 1% ;
+}
+header h1 img {
+    width: 10%;
+    height: 10%;
+    margin: auto 2% auto auto;
+    
+} 
+header .upperlogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  0.5%;
+}
+header .upperlogo img {
+    width: 100%;
+    margin: 0;
+}
+header #headerinformation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    background-image: url(../images/headerbackground.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 190px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+    flex-direction: column; 
+}
+header #headerinformation img {
+    width:  8%;
+    height: 7%;
+    margin: 1% 12%;
+}
+header #headerinformation .timetableinfo {
+    background-color: white;
+    margin: 1%;
+    border:2px solid black;
+    padding: 2%;
+    border-top: 5px solid black;;
+}
+header #headerinformation p {
+    margin: 0%;
+}
+header #headerinformation .locationinfo{
+    background-color: white;
+    margin: 1% 1% 1% auto;
+    border:2px solid black;
+    padding: 2%;
+    border-top: 5px solid black;;
+}
+header .button {
+    display: flex;
+    justify-content: center;
+    background-color:#b30000;
+    border: 1px solid black;
+    border-radius: 17px;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    margin: 2% 1%;
+}
+
+header .button:hover {
+    background-color: #ecd9c6; 
+    color: black;
+}
+nav  {
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    margin: 2%;
+}
+nav  a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid white;
+    background-color: #ecd9c6;
+    padding: 1% 5%;
+    min-width: 72px;
+}
+
+nav  a:hover {
+    background-color: white; 
+    text-decoration: underline;
+}
+#firstsection {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#slider { 
+    overflow: hidden; 
+    margin: 2%;
+}
+#slider figure img { 
+    width: 20%; float: left; 
+    
+}
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+.aboutus {
+    text-align: center;
+    font-family: 'Montserrat',  sans-serif;
+}
+.contact {
+    text-align: center;
+    font-family: 'Montserrat',  sans-serif;
+    background-color: #ecd9c6;
+    font-size: 1rem;
+    margin: 1%;
+    padding: 2%;
+}
+.contact img {
+    width: 8%;
+    height: 8%;
+    margin: 0;
+}
+.contact .locinfo {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+.contact .phoninfo {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+.contact .mailinfo {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+.contact p {
+    margin: 0;
+}
+section {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin: 1%;
+}
+section p {
+    font-size: 0.7rem;
+    margin: 1%;
+}
+section img {
+    width:25%;
+    height: 25%;
+}
+section div{
+    display: flex;
+   align-items: center;
+}
+#map iframe  {
+    width: 90%;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer img {
+    width: 15%;
+    height: 4%;
+}
